@@ -12,7 +12,7 @@ const Footer = () => {
                     Unlock My <span className='text-red-600'>Digital World</span>: Let's Connect and Elevate Together
                 </h1>
                 <p className='text-white-200 md:mt-10 my-5 text-center'>
-                    Let's Connect: Together, We Can Turn Your Goals Into Reality
+                    Let&apos;s Connect: Together, We Can Turn Your Goals Into Reality
                 </p>
                 <a href="mailto:tewarishashwat2002@gmail.com">
                     <MagicButton
