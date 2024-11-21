@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className='w-full pb-10 mb-[100px] md:mb-5' id='contact'>
             <div className="flex flex-col items-center">
                 <h1 className='heading lg:max-w-[45vw]'>
-                    Unlock My <span className='text-red-600'>Digital World</span>: Let's Connect and Elevate Together
+                    Unlock My <span className='text-red-600'>Digital World</span>: Let&apos;s Connect and Elevate Together
                 </h1>
                 <p className='text-white-200 md:mt-10 my-5 text-center'>
                     Let&apos;s Connect: Together, We Can Turn Your Goals Into Reality
