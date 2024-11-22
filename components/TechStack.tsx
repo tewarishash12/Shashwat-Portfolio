@@ -16,7 +16,7 @@ const TechStack = () => {
                             <InfiniteMovingCards
                                 items={techstack}
                                 direction="right"
-                                speed="normal"
+                                speed="fast"
                             />
                         </div>
                     </div>
