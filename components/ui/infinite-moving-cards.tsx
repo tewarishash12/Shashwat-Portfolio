@@ -101,18 +101,18 @@ export const InfiniteMovingCards = ({
                                 aria-hidden="true"
                                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
                             ></div>
-                            <h1 className="relative z-20 text-3xl leading-[1.6] text-white font-bold">
+                            <h1 className="relative z-20 text-3xl leading-[1.6] text-white-200 font-bold text-center">
                                 {item.heading}
                             </h1>
-                            <div className="relative z-20 mt-6 flex flex-col flex-wrap gap-6 justify-start max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+                            <div className="relative z-20 mt-6 grid grid-cols-2 gap-4 max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
                                 {item.tech.map((technology, techIdx) => (
-                                    <div key={techIdx} className="flex flex-row items-center gap-2">
+                                    <div key={techIdx} className="flex items-center gap-2">
                                         <img
                                             src={item.img[techIdx]}
                                             alt={technology}
                                             className="h-14 w-14 object-contain rounded-full bg-white-100"
                                         />
-                                        <span className="text-lg leading-[1.6] text-gray-500 font-normal">
+                                        <span className="text-lg leading-[1.6] text-gray-300 font-semibold">
                                             {technology}
                                         </span>
                                     </div>
@@ -121,6 +121,7 @@ export const InfiniteMovingCards = ({
                         </blockquote>
                     </li>
                 ))}
+
             </ul>
         </div>
     );
