@@ -2,7 +2,6 @@ import React from 'react'
 import MagicButton from './ui/tailwindcss-buttons'
 import { FaLocationArrow } from 'react-icons/fa'
 import { socialMedia } from '@/data'
-import { div } from 'framer-motion/client'
 
 const Footer = () => {
     return (
