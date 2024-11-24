@@ -6,7 +6,7 @@ import RecentProjects from "@/components/RecentProjects";
 import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
-
+  
 export default function Home() {
   return (
     <main className="relative flex justify-center items-center flex-col mx-auto overflow-clip">
