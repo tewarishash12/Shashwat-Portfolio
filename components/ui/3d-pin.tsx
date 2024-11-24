@@ -100,7 +100,7 @@ export const PinPerspective = ({
                                 y: "-50%",
                             }}
                             animate={{
-                                opacity: [0, 1, 0.5, 0],
+                                opacity: [0, 1, 0],
                                 scale: 1,
 
                                 z: 0,
@@ -108,6 +108,7 @@ export const PinPerspective = ({
                             transition={{
                                 duration: 6,
                                 repeat: Infinity,
+                                repeatType: 'loop',
                                 delay: 0,
                             }}
                             className="absolute left-1/2 top-1/2  h-[11.25rem] w-[11.25rem] rounded-[50%] bg-sky-500/[0.08] shadow-[0_8px_16px_rgb(0_0_0/0.4)]"
