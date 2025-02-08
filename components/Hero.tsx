@@ -36,7 +36,7 @@ const Hero = () => {
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hi, I&apos;m Shashwat Tewari, a ReactJS/NextJS developer based in India
                     </p>
-                    <a href="https://drive.google.com/file/d/1gkL2395YYJe-KRtwEmdgCojeFjTLIliU/view?usp=drive_link" target='_blank'><MagicButton
+                    <a href="https://drive.google.com/file/d/1PaPJ_EjyCEJHfW_LlJrRtJ4gAzLmrg_g/view?usp=sharing" target='_blank'><MagicButton
                         title="See my Resume"
                         icon={<FaLocationArrow />}
                         position='right'
