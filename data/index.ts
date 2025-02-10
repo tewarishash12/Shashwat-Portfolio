@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "Foodilicious: Cafeteria Management WebApp",
+        des: "A webapp that manages various counters and their menu's with multiple roles working in the background",
+        img: "/foodilicious.png",
+        iconLists: ["/re.svg", "/tail.svg", "/node_icon.svg", "/mongodb.svg", "/express.svg", "/redux.svg"],
+        link: "https://cafeteria-web-app-frontend.vercel.app/",
+    },
+    {
+        id: 1,
         title: "BiteDash: Food Delivery Website",
         des: "Explore a new way of ordering food online while getting proper authentication, verification, and safety.",
         img: "/Bitedash.png",
@@ -80,7 +88,7 @@ export const projects = [
         link: "https://frontend-food-del.onrender.com/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Termify: A personal terminal",
         des: "A personalised terminal that contains all the relevant information with regrads to professional world.",
         img: "/terminal.png",
@@ -88,21 +96,13 @@ export const projects = [
         link: "https://tewarishash12.github.io/Terminal/",
     },
     {
-        id: 3,
+        id: 4,
         title: "PeakPlanner: Task Management Platform",
         des: "Website that is used to keep track of all the projects and the tasks of all projects while creating role based authentication.",
         img: "/peakplanner.png",
         iconLists: ["/re.svg", "/tail.svg", "/node_icon.svg", "/mongodb.svg", "/express.svg"],
         link: "/ui.aiimg.com",
-    }
-    // {
-    //     id: 4,
-    //     title: "Animated Apple Iphone 3D Website",
-    //     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    //     img: "/p4.svg",
-    //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //     link: "/ui.apple.com",
-    // },
+    },
 ];
 
 export const education = [
