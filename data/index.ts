@@ -130,8 +130,8 @@ export const techstack = [
     {
         id: 1,
         heading: "Frontend Technology",
-        tech: ["HTML", "CSS", "BootStrap", "Tailwind CSS", "React", "Next"],
-        img: ["/html.svg","/css.svg", "/boot.svg", "/tail.svg","re.svg", "next.svg"]
+        tech: ["HTML", "CSS", "React", "Next"],
+        img: ["/html.svg","/css.svg", "re.svg", "next.svg"]
     },
     {
         id: 2,
@@ -142,8 +142,14 @@ export const techstack = [
     {
         id: 3,
         heading: "Programming Languages",
-        tech: ["JavaScript", "C++", "Java", "Python", "C"],
-        img: ["/js.svg","cpp.svg","/java.svg","/python.svg","/c.svg"]
+        tech: ["JavaScript", "C++", "Java", "Python", "C", "SQL"],
+        img: ["/js.svg","cpp.svg","/java.svg","/python.svg","/c.svg", "/sql.svg"]
+    },
+    {
+        id: 4,
+        heading: "Tools/FrameWorks",
+        tech: ["Redux", "Material UI", "BootStrap", "Tailwind CSS", "Postman"],
+        img: ["/redux.svg","mui.svg","/boot.svg","/python.svg","/postman.svg"]
     }
 ];
 
