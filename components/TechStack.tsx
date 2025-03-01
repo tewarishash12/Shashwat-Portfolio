@@ -15,7 +15,7 @@ const TechStack = () => {
                         <div className='h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased relative overflow-hidden '>
                             <InfiniteMovingCards
                                 items={techstack}
-                                direction="right"
+                                direction="left"
                                 speed="fast"
                             />
                         </div>

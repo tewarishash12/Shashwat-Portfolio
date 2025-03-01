@@ -149,7 +149,7 @@ export const techstack = [
         id: 4,
         heading: "Tools/FrameWorks",
         tech: ["Redux", "Material UI", "BootStrap", "Tailwind CSS", "Postman"],
-        img: ["/redux.svg","mui.svg","/boot.svg","/python.svg","/postman.svg"]
+        img: ["/redux.svg","mui.svg","/boot.svg","/tail.svg","/postman.svg"]
     }
 ];
 
