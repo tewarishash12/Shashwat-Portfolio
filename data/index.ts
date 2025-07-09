@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "IntervueCoach: AI Powered Interview Platform",
+        des: "Website that creates a interview-level questions experience based on your uploaded resume and jobRole for the uploaded resume.",
+        img: "/IntervueCoach.png",
+        iconLists: ["/next.svg", "/tail.svg", "/node_icon.svg", "/mongodb.svg", "/express.svg","/redux.svg"],
+        link: "https://interview-coach-mpc5.vercel.app/",
+    },
+    {
+        id: 2,
         title: "Foodilicious: Cafeteria Management WebApp",
         des: "A webapp that manages various counters and their menu's with multiple roles working in the background",
         img: "/foodilicious.png",
@@ -80,7 +88,7 @@ export const projects = [
         link: "https://cafeteria-web-app-frontend.vercel.app/",
     },
     {
-        id: 1,
+        id: 3,
         title: "BiteDash: Food Delivery Website",
         des: "Explore a new way of ordering food online while getting proper authentication, verification, and safety.",
         img: "/Bitedash.png",
@@ -88,20 +96,12 @@ export const projects = [
         link: "https://frontend-food-del.onrender.com/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Termify: A personal terminal",
         des: "A personalised terminal that contains all the relevant information with regrads to professional world.",
         img: "/terminal.png",
         iconLists: ["/html.svg", "/css.svg", "/js.svg"],
         link: "https://tewarishash12.github.io/Terminal/",
-    },
-    {
-        id: 4,
-        title: "PeakPlanner: Task Management Platform",
-        des: "Website that is used to keep track of all the projects and the tasks of all projects while creating role based authentication.",
-        img: "/peakplanner.png",
-        iconLists: ["/re.svg", "/tail.svg", "/node_icon.svg", "/mongodb.svg", "/express.svg"],
-        link: "/ui.aiimg.com",
     },
 ];
 
@@ -153,36 +153,36 @@ export const techstack = [
     }
 ];
 
-export const workExperience = [
-    {
-        id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-        className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
-    },
-    {
-        id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
-    },
-    {
-        id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
-    },
-];
+// export const workExperience = [
+//     {
+//         id: 1,
+//         title: "Frontend Engineer Intern",
+//         desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+//         className: "md:col-span-2",
+//         thumbnail: "/exp1.svg",
+//     },
+//     {
+//         id: 2,
+//         title: "Mobile App Dev - JSM Tech",
+//         desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+//         className: "md:col-span-2", // change to md:col-span-2
+//         thumbnail: "/exp2.svg",
+//     },
+//     {
+//         id: 3,
+//         title: "Freelance App Dev Project",
+//         desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+//         className: "md:col-span-2", // change to md:col-span-2
+//         thumbnail: "/exp3.svg",
+//     },
+//     {
+//         id: 4,
+//         title: "Lead Frontend Developer",
+//         desc: "Developed and maintained user-facing features using modern frontend technologies.",
+//         className: "md:col-span-2",
+//         thumbnail: "/exp4.svg",
+//     },
+// ];
 
 export const socialMedia = [
     {
