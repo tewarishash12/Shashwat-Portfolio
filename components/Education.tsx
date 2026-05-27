@@ -1,6 +1,7 @@
 import { education } from '@/data';
 import React from 'react';
 import { Button } from './ui/moving-border';
+import Image from 'next/image';
 
 const Education = () => {
     return (
@@ -17,7 +18,9 @@ const Education = () => {
                         className="w-full flex-shrink-0 text-white border-neutral-200 dark:border-slate-800"
                     >
                         <div className="flex flex-col lg:flex-row lg:items-center p-5 gap-4">
-                            <img
+                            <Image
+                                height={64}
+                                width={64}
                                 src={card.logo}
                                 alt={card.institute}
                                 className="w-16 h-16 object-contain rounded-full bg-white-200"
