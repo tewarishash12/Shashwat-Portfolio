@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -107,9 +108,11 @@ export const InfiniteMovingCards = ({
                             <div className="relative z-20 mt-6 grid grid-cols-2 gap-4 max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
                                 {item.tech.map((technology, techIdx) => (
                                     <div key={techIdx} className="flex items-center gap-2">
-                                        <img
+                                        <Image
                                             src={item.img[techIdx]}
                                             alt={technology}
+                                            width={56}
+                                            height={56}
                                             className="h-14 w-14 object-contain rounded-full bg-white-100"
                                         />
                                         <span className="text-lg leading-[1.6] text-gray-300 font-semibold">
